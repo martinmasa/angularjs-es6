@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+
+# Build folder
+build/
+
+# IDE's
+.idea/
+.vscode/
+nbproject
+.project
+*.sublime-*
+*.iml
+.eslintrc
+
+# Other
+.tmp
+.DS_Store
+.npm_install_log
+npm-debug.log*
