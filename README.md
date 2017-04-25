@@ -1,3 +1,3 @@
-## Angularjs 1.5 ES6 accounts manager demo application ##
+## AngularJS ES6 demo application ##
 
 
