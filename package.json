@@ -4,6 +4,7 @@
   "description": "AngularJS ES6 demo application.",
   "author": "Martin",
   "license": "MIT",
+  "repository": "https://github.com:mtendotnet/angularjs-es6.git",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server -d --progress --colors --inline --hot --https --watch --content-base bin/",
     "test": "karma start"
