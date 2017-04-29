@@ -4,10 +4,11 @@
   "description": "AngularJS ES6 demo application.",
   "author": "Martin",
   "license": "MIT",
-  "repository": "https://github.com:mtendotnet/angularjs-es6.git",
+  "repository": "https://github.com/mtendotnet/angularjs-es6",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server -d --progress --colors --inline --hot --https --watch --content-base bin/",
-    "test": "karma start"
+    "test": "karma start",
+    "e2e": "protractor e2e/protractor.conf.js" 
   },
   "dependencies": {
     "angular": "1.5.11",
@@ -32,6 +33,7 @@
     "karma-spec-reporter": "0.0.31",
     "karma-webpack": "^1.8.1",
     "node-sass": "^3.13.1",
+    "protractor": "^5.1.1",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.16.1",
     "webpack": "^1.15.0",

@@ -6,4 +6,3 @@ import './app.scss';
 angular
   .module('app', [])
   .component('app', appComponent);
-  
