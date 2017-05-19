@@ -35,7 +35,10 @@ const extract = {
 const scripts = {
   test: /\.js$/,
   exclude: /node_modules/,
-  loader: 'babel'
+  loaders: [
+    'ng-annotate', 
+    'babel'
+  ]
 }
 
 const styles = {

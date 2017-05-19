@@ -3,7 +3,7 @@ describe('App', () => {
     angular.mock.module('app');
   });
 
-  it('should be true', () => {
+  it('should be defined', () => {
     expect(true).toBeTruthy();
   });
 });

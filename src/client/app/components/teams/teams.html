@@ -1,0 +1,11 @@
+<section class="teams">
+  <h2>Teams</h2>
+  <ul>
+    <li ng-repeat="team in $ctrl.teams">
+      <team-item 
+        select-team="$ctrl.onTeamSelection(team)" 
+        team="team">
+      </team-item>
+    </li>
+  </ul>  
+</section>

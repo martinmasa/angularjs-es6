@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server -d --progress --colors --inline --hot --https --watch --content-base bin/",
     "test": "karma start",
-    "e2e": "protractor e2e/protractor.conf.js" 
+    "e2e": "protractor e2e/protractor.conf.js"
   },
   "dependencies": {
     "angular": "1.5.11",
@@ -32,6 +32,7 @@
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-spec-reporter": "0.0.31",
     "karma-webpack": "^1.8.1",
+    "ng-annotate-loader": "^0.6.0",
     "node-sass": "^3.13.1",
     "protractor": "^5.1.1",
     "sass-loader": "^4.1.1",
