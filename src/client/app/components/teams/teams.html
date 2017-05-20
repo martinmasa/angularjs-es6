@@ -1,8 +1,9 @@
 <section class="teams">
-  <h2>Teams</h2>
+  <h2 ng-click="$ctrl.onTeamSelection(null)">Teams</h2>
   <ul>
     <li ng-repeat="team in $ctrl.teams">
       <team-item 
+        ng-class="{'selected-team': $ctrl.isSelectedTeam(team)}"
         select-team="$ctrl.onTeamSelection(team)" 
         team="team">
       </team-item>

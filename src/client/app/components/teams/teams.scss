@@ -1,3 +1,11 @@
 .teams {
   color:#232323;
+  
+  h2 {
+    cursor: pointer;
+  }
+  
+  .selected-team {
+    font-weight: bold; 
+  }
 }

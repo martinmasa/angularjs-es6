@@ -1,7 +1,8 @@
 class TeamsService {
-  constructor($q) {
+  constructor($rootScope, $q) {
     'ngInject';
     
+    this.$rootScope = $rootScope;
     this.$q = $q;
 
     this.teams = [
@@ -15,6 +16,15 @@ class TeamsService {
 
   getTeams() {
     return this.$q.when(this.teams);
+  }
+
+  getSelectedTeam() {
+    return this.selectedTeam;
+  }
+  
+  setSelectedTeam(team) {
+    this.selectedTeam = team;
+    this.$rootScope.$broadcast('teamSelectionChange', team);
   }
 }
 

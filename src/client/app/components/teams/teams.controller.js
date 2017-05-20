@@ -11,7 +11,12 @@ class TeamsController {
   }
 
   onTeamSelection(team) {
-    console.log('SELECTED TEAM', team);
+    this.TeamsService.setSelectedTeam(team);
+  }
+
+  isSelectedTeam(team) {
+    const selectedTeam = this.TeamsService.getSelectedTeam();
+    return selectedTeam && selectedTeam.id === team.id;
   }
 }
 
